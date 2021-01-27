@@ -1,0 +1,2 @@
+const pet = $("#pet").val()
+
