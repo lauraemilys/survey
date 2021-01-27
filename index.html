@@ -12,6 +12,7 @@
 <body>
   <h1>Fill out this survey, friend!</h1>
   <div class="container">
+    <h2>Favorite Type of Pet</h2>
     <form class="form-group">
         <select class="form-control" id="pet">
           <option>Cat</option>
@@ -22,11 +23,29 @@
           <option>Small Mammal</option>
         </select>
         <div class="radio">
+          <h2>Favorite Pizza Topping</h2>
           <label>
-            <input type="radio" name="">
+            <input type="radio" name="pizzaTopping" value="cheese" checked>
+            Cheese
           </label>
-        </div>              
-
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="pizzaTopping" value="pepperoni" checked>
+            Pepperoni
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="pizzaTopping" value="veggie" checked>
+            Veggie
+          </label>
+        </div>
+        
+        <div class="form-group">
+          <label for="born">Date of Birth:</label>
+          <input id="born" class="form-control" type="date">
+        </div>
     </form>
   
   </div>
